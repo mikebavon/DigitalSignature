@@ -67,7 +67,7 @@ public class App {
         System.out.println("Signature: " + base64Signature);
         System.out.println();
         System.out.println();
-        System.out.println(verifySig(payload, base64Signature, encodedPublicKey));
+        System.out.println("Verified? " + verifySig(payload, base64Signature, encodedPublicKey));
     }
 
 
